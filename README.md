@@ -1,5 +1,9 @@
 # Trine.capstone.sentiment_analysis
 
+### Goal
+
+This project examines and evaluates a compact, reproducible pipeline that uses a daily aggregated sentiment signal derived from readily available public text to forecast short-term price direction for a single equity.
+
 ### Environment
 
 This repository contains a minimal FastAPI app and a Nix `shell.nix` dev environment.
@@ -40,3 +44,7 @@ Copyright © 2020 Prosus AI.
 
 A copy of the original finBERT license is included in `finbert/LICENSE`.  
 All use of the finBERT model, weights, and associated materials must comply with the terms of the Apache 2.0 license.
+
+## Archive Note
+
+This project is no longer actively maintained. The latest version of the project is v1.0.0, which was last updated on Jan 30, 2026.
