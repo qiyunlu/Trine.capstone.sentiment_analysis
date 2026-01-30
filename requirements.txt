@@ -1,0 +1,25 @@
+# Python 3.11
+pip
+
+# Core web & API
+fastapi
+uvicorn
+requests
+pandas
+
+# News scraping & processing
+newspaper4k
+
+# Yahoo Finance API wrapper
+yfinance
+
+# HuggingFace (for ProsusAI/finbert)
+numpy<2
+tensorflow>=2.13
+transformers>=4.40
+tf-keras
+sentencepiece
+
+# Statistics and presentation
+scikit-learn
+matplotlib

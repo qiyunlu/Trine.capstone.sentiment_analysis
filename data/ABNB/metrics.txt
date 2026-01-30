@@ -1,0 +1,8 @@
+Equation:
+y = sigmoid(0.4236*title_positive + 0.6649*title_neutral + -1.1229*title_negative + -0.1449*content_positive + 0.5652*content_neutral + -0.4546*content_negative + -0.1175)
+
+Per-fold metrics:
+[{'fold': 0, 'precision': 0.5405405405405406, 'recall': 0.8333333333333334, 'f1': 0.6557377049180327, 'roc_auc': 0.602470930232558, 'pr_auc': 0.6164688448633925, 'log_loss': 0.6874337597172941, 'confusion_matrix': [[9, 34], [8, 40]]}, {'fold': 1, 'precision': 0.39622641509433965, 'recall': 0.5384615384615384, 'f1': 0.45652173913043476, 'roc_auc': 0.5017258382642998, 'pr_auc': 0.4255694171114769, 'log_loss': 0.6872680094165203, 'confusion_matrix': [[20, 32], [18, 21]]}, {'fold': 2, 'precision': 0.6511627906976745, 'recall': 0.56, 'f1': 0.6021505376344086, 'roc_auc': 0.5617073170731708, 'pr_auc': 0.5545350927029189, 'log_loss': 0.6907930758800158, 'confusion_matrix': [[26, 15], [22, 28]]}]
+
+Aggregated metrics:
+{'precision': 0.5235294117647059, 'recall': 0.6496350364963503, 'f1': 0.5798045602605864, 'roc_auc': 0.5515510948905109, 'pr_auc': 0.5305040477241203, 'log_loss': 0.6884982816712768, 'confusion_matrix': [[55, 81], [48, 89]]}
